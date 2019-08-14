@@ -1,6 +1,6 @@
 package com.yu.factory.simple;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
+
 import com.yu.factory.Mengniu;
 import com.yu.factory.Milk;
 import com.yu.factory.Tenlunsu;

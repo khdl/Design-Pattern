@@ -11,7 +11,7 @@ public class LazyThree {
     private static class LazyHolder{
         private static  LazyThree lazy = new LazyThree();
     }
-    public static LazyThree getInstance(){
+    public static final LazyThree getInstance(){
         return  LazyHolder.lazy;
     }
 }

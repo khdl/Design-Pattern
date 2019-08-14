@@ -9,7 +9,7 @@ package com.yu.singleton.lazy;
 public class LazyFour {
     private LazyFour(){}
     private  static volatile LazyFour lazy = null;
-    public static synchronized LazyFour getInstance(){
+    public static  LazyFour getInstance(){
         if(lazy == null){
             synchronized (LazyFour.class){
                 if(lazy == null){
